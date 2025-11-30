@@ -12,11 +12,7 @@ import java.util.concurrent.CompletableFuture;
 
 /**
  * Implementors providing and managing economy data create a class which implements this
- * interface to be registered in Treasury's {@link me.lokka30.treasury.api.common.service
- * Services API}.
- *
- * @author lokka30, Jikoo, MrIvanPlays, NoahvdAa, creatorfromhell
- * @since v1.0.0
+ * interface.
  */
 public interface EconomyProvider {
 
@@ -27,7 +23,6 @@ public interface EconomyProvider {
      *
      * @return account accessor
      * @see AccountAccessor
-     * @since 1.0.0
      */
     @NotNull AccountAccessor accountAccessor();
 
