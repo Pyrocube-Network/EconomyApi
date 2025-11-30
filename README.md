@@ -2,6 +2,8 @@
 
 An economy api for Hytale based on its minecraft counterpart [Treasury](https://github.com/ArcanePlugins/Treasury)
 
+All credits to the original authors of the minecraft version
+
 ## TODO
 
 - [ ] v1.0.0 - Basic Economy
